@@ -15,3 +15,4 @@ cmake-build-debug/.ninja_deps
 cmake-build-debug/.ninja_log
 cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 cmake-build-debug/CMakeFiles/cppCalc.dir/Calc/main.cpp.obj
+*.obj

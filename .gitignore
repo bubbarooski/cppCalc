@@ -1,0 +1,13 @@
+
+*.json
+*.iml
+*.xml
+*.cmake
+Calc/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+*.exe
+*.bin
+*.txt
+*.log
+*.c
+*.ninja
+*.check_cache

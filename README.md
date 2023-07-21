@@ -1,5 +1,5 @@
 # c++Calc
-This is just a simple project to create a calculator, using C++. There will be a few renditions of it and I will outline them below (including where I am):
+This is just a simple project to create a calculator, using C++. I chose to do this because the underlying concept of the program is not too difficult but it will allow me to use different data structures, complex operations, and a bit of file manipulation. There will be a few renditions of it and I will outline them below (including where I am):
   - Basic operators and only 2 numbers
     - ~~Simple menu asking what operation user wants~~
     - Implementing simple operators
@@ -10,6 +10,7 @@ This is just a simple project to create a calculator, using C++. There will be a
   - List of previous operations
     - Add to menu option to display last operations
     - Implement via linked list, can be toggled to just display result or full calculation
+    - Option to export session history to text file
   - Basic operators and up to 64 numbers, specifiying how many numbers there will be
     - Update previous operators LL to new input size
   - Basic operators and up to 64 numbers, no specifying how many numbers

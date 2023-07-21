@@ -5,6 +5,7 @@
 #ifndef CPPCALC_SIMPLECALCULATIONS_H
 #define CPPCALC_SIMPLECALCULATIONS_H
 
+// Functions
 double addition(double arg1, double arg2);
 double subtraction(double arg1, double arg2);
 double division(double arg1, double arg2);

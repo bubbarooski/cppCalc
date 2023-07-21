@@ -37,23 +37,35 @@ void menu(){
 }
 
 int menuSelection(){
-    //Variables/structures
+
+    // Variables/structures -----------
     int menuChoice = 0;
+    // --------------------------------
 
     try{
         cin >> menuChoice;
+        cin.ignore(numeric_limits<streamsize>::max(),'\n');
 
-        if(menuChoice == 1 || menuChoice == 2 || menuChoice == 3 ||
-           menuChoice == 4 || menuChoice == -1){
-            return menuChoice;
+        menuChoice = int(menuChoice);
+
+        if (menuChoice == 1 || menuChoice == 2 || menuChoice == 3 ||
+            menuChoice == 4 || menuChoice == -1) {
+                return menuChoice;
         }
-        else{
-            throw(menuChoice);
+        else {
+            throw (menuChoice);
         }
+
     }
     catch (int menuChoice){
         cout << "--Invalid menu choice--" << endl;
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(),'\n');
         return 0;
     }
+}
+
+void operationSelection(){
+    cout << "test" << endl;
 }
 

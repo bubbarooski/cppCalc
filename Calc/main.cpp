@@ -1,4 +1,5 @@
 #include <iostream>
+#include "stdlib.h"
 #include "simpleCalculations.h"
 #include "menuFunctions.h"
 
@@ -6,11 +7,12 @@ using namespace std;
 
 int main() {
 
-    // Variables/structures
+    // Variables/structures -----------
     int menuChoice = 0;
     struct mathArguments userInput{};
+    // --------------------------------
 
-    while(menuChoice != -1) {
+    while(true) {
 
         // Welcome menu
         menu();
@@ -19,16 +21,12 @@ int main() {
             if(menuChoice == 0){
                 continue;
             }
+            if(menuChoice == -1){
+                cout << "Thank you!";
+                exit(0);
+            }
 
-
-        cout << "test" << endl;
-
-        userInput = userArgs();
-
-        cout << userInput.argArray[0];
-
+        operationSelection();
     }
-
-    return 0;
 }
 

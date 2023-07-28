@@ -25,4 +25,9 @@ This is just a simple project to create a calculator, using C++. I chose to do t
     - Common distance, weight, and temperature conversions by specfying units first
     - List of previous operations
   - Introduction of complex operators such as trig functions
-  - Introduction of simple calc functions
+    - Log/natural log
+    - Simple trig functions (SIN, COS, TAN)
+    - Complex trig functions
+  - Introduction of simple calculus functions
+    - Simple derivative
+    - Simple integrals 

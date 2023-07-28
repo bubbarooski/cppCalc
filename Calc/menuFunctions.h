@@ -15,6 +15,6 @@ struct mathArguments{
 struct mathArguments userArgs();
 void menu();
 int menuSelection();
-void operationSelection();
+void operationSelection(struct mathArguments userInput, int menuChoice);
 
 #endif //CPPCALC_MENUFUNCTIONS_H

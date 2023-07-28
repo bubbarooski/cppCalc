@@ -1,10 +1,12 @@
 #include <iostream>
 #include "stdlib.h"
-#include "simpleCalculations.h"
 #include "menuFunctions.h"
 
-using namespace std;
 
+/**
+ * This is the main driver function of the program. It calls the menu
+ * and passes the user input to the math control function.
+ */
 int main() {
 
     // Variables/structures -----------
@@ -18,15 +20,19 @@ int main() {
         menu();
         menuChoice = menuSelection();
 
-            if(menuChoice == 0){
-                continue;
+            if(menuChoice == 0 || menuChoice == -1){
+                if(menuChoice == 0){
+                    continue;
+                }
+                else{
+                    std::cout << "Thank you!";
+                    exit(0);
+                }
             }
-            if(menuChoice == -1){
-                cout << "Thank you!";
-                exit(0);
+            else {
+                userInput = userArgs();
+                operationSelection(userInput, menuChoice);
             }
-
-        operationSelection();
     }
 }
 

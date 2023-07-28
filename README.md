@@ -1,9 +1,9 @@
-# c++Calc
+# c++ Calculator
 This is just a simple project to create a calculator, using C++. I chose to do this because the underlying concept of the program is not too difficult but it will allow me to use different data structures, complex operations, and a bit of file manipulation. There will be a few renditions of it and I will outline them below (including where I am):
   - Basic operators and only 2 numbers
     - ~~Simple menu asking what operation user wants~~
     - ~~Implementing simple operators~~
-  - Options menu
+  - Options menu <- HERE
     - Changing of decimal accurary
   - Inputting of operation into "memory" and retrieval of memory
     - Adding features to menu to save result of last operation
